@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Home Page */
+#index{
+    background: #CA8787;
+}
+
+#container {
+    display: flexbox;
+    text-align: center;
+}
+
+.greetings {
+    padding-top: 5%;
+    font-size: 30px;
+}
+
+.message {
+    margin-top: 25px;
+}
+
+.button {
+    margin-top: 25px;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+}
+
+.button:hover{
+    background: orange;
+}
+
+.hr{
+    margin: auto;
+    margin-top: 25px;
+    width: 50%;
+}
+
+.admire {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main {
+    font-size: 4rem;
+    /* max-width: 420px; */
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+
+main span {
+    opacity: 0; 
+    animation: fadeInOut 2s ease-in-out infinite; 
+    animation-delay: calc(1.75s * var(--i)); 
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+
+  main span:nth-child(1) { 
+    --i: 0; 
+    color: red;
+}
+  main span:nth-child(2) { 
+    --i: 1; 
+}
+  main span:nth-child(3) { 
+    --i: 2; 
+}
+  main span:nth-child(4) { 
+    --i: 3; 
+}
+  main span:nth-child(5) { 
+    --i: 4; 
+}
+  main span:nth-child(6) { 
+    --i: 5; 
+}
+  main span:nth-child(7) { 
+    --i: 6; 
+}
+  main span:nth-child(8) { 
+    --i: 7; 
+}
+  main span:nth-child(9) { 
+    --i: 8; 
+}
+  main span:nth-child(10) { 
+    --i: 9; 
+}
+  main span:nth-child(11) { 
+    --i: 10; 
+}
+  main span:nth-child(12) { 
+    --i: 11; 
+}
+  main span:nth-child(13) { 
+    --i: 12; 
+}
+  main span:nth-child(14) { 
+    --i: 13; 
+}
+  main span:nth-child(15) { 
+    --i: 14; 
+}
+  main span:nth-child(16) { 
+    --i: 15; 
+}
+  main span:nth-child(17) { 
+    --i: 16; 
+}
+  main span:nth-child(18) { 
+    --i: 17; 
+    color: red;
+}
+  main span:nth-child(19) { 
+    --i: 18; 
+}
+  main span:nth-child(20) { 
+    --i: 19; 
+}
+
+
+.fadeIn {
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards; 
+}
+
+.fadeIn:nth-child(1) {
+    animation-delay: 1s;
+}
+.fadeIn:nth-child(2) {
+    animation-delay: 2s;
+}
+.fadeIn:nth-child(3) {
+    animation-delay: 3s;
+}
+.fadeIn:nth-child(4) {
+    animation-delay: 4s;
+}
+.fadeIn:nth-child(5) {
+    animation-delay: 5s;
+}
+.fadeIn:nth-child(6) {
+    animation-delay: 6s;
+}
+.fadeIn:nth-child(7) {
+    animation-delay: 7s;
+}
+.fadeIn:nth-child(8) {
+    animation-delay: 8s;
+}
+.fadeIn:nth-child(9) {
+    animation-delay: 9s;
+}
+.fadeIn:nth-child(10) {
+    animation-delay: 10s;
+}
+.fadeIn:nth-child(11) {
+    animation-delay: 11s;
+}
+.fadeIn:nth-child(12) {
+    animation-delay: 12s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.admire {
+    font-style: italic;
+    font-size: 1.2em;
+}
